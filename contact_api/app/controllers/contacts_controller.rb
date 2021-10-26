@@ -36,7 +36,7 @@ class ContactsController < ApplicationController
   # DELETE /contacts/1
   def destroy
     @contact.destroy
-    render {message: "Contact deleted"}
+    render json: {message: 'contact deleted'}
   end
 
   private
