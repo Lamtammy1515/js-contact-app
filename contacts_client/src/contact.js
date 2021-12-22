@@ -1,7 +1,7 @@
 class Contact {
     //remember objects
     static all = []
-
+    static contactContainer = document.getElementById('contacts-container')
     constructor(id, name, number, email, category_id){
         this.id = id
         this.name = name
@@ -12,7 +12,7 @@ class Contact {
         this.element = document.createElement('li')
         this.element.dataset.id = this.id
         this.element.id = `contact-${this.id}`
-        
+
         Contact.all.push(this)
     }
 }
