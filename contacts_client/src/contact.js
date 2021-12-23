@@ -15,4 +15,8 @@ class Contact {
 
         Contact.all.push(this)
     }
+
+    contactHTML(){
+        
+    }
 }
