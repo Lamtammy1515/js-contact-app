@@ -17,6 +17,9 @@ class Contact {
     }
 
     contactHTML(){
-        
+        this.element.innerHTML += 
+        <div>
+            <h3>${this.name}</h3>
+        </div>
     }
 }
