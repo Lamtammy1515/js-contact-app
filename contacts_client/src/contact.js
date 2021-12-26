@@ -20,6 +20,7 @@ class Contact {
         this.element.innerHTML += 
         <div>
             <h3>${this.name}</h3>
+            <p>${this.number} - ${this.email}</p>
         </div>
     }
 }
