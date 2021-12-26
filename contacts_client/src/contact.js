@@ -17,10 +17,13 @@ class Contact {
     }
 
     contactHTML(){
-        this.element.innerHTML += 
+        this.element.innerHTML += `
         <div>
             <h3>${this.name}</h3>
             <p>${this.number} - ${this.email}</p>
         </div>
+        `
+
+        return this.element
     }
 }
