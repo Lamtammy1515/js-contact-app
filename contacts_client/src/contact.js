@@ -26,4 +26,8 @@ class Contact {
 
         return this.element
     }
+
+    slapOnDom() {
+        
+    }
 }
