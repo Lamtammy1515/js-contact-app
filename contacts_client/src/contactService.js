@@ -13,7 +13,9 @@ class ContactService {
          fetch (`${this.endpoint}/contacts`)
          .then(resp => resp.json())
          .then(contacts => {
-             debugger
+             for (const contact of contacts){
+                 
+             }
          })
     }
 
