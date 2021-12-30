@@ -2,7 +2,7 @@ class Contact {
     //remember objects
     static all = []
     static contactContainer = document.getElementById('contacts-container')
-    constructor(id, name, number, email, category_id){
+    constructor({id, name, number, email, category_id}){
         this.id = id
         this.name = name
         this.number = number 

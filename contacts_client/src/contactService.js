@@ -14,7 +14,7 @@ class ContactService {
          .then(resp => resp.json())
          .then(contacts => {
              for (const contact of contacts){
-                 const c = new Contact()
+                 const c = new Contact(contact)
              }
          })
     }
