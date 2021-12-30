@@ -15,6 +15,7 @@ class ContactService {
          .then(contacts => {
              for (const contact of contacts){
                  const c = new Contact(contact)
+                 c.slapOnDom()
              }
          })
     }
