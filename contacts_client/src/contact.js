@@ -28,6 +28,7 @@ class Contact {
     }
 
     slapOnDom() {
-        Contact.contactsContainer.appendChild(contactHTML())
+        console.log(contactContainer)
+        //Contact.contactsContainer.appendChild(contactHTML())
     }
 }
