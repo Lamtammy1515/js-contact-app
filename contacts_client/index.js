@@ -5,3 +5,4 @@ const contactService = new ContactService(base_url)
 contactService.getContacts()
 //any initializations of the application 
 //console.log(Contact.all)
+Contact.renderForm()

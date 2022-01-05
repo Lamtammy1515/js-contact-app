@@ -33,12 +33,12 @@ class Contact {
         //Contact.contactsContainer.appendChild(contactHTML())
     }
 
-    renderForm() {
+    static renderForm() {
         Contact.contactForm.innerHTML += `
         <form id="new-contact-form">
-            <input type="text" id="name">
-            <input type="text" id="number">
-            <input type="text" id="email">
+            Name: <input type="text" id="name">
+            Number: <input type="text" id="number">
+            Email: <input type="text" id="email">
             <input type="submit" id="create">
         </form>
         `
