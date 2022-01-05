@@ -34,6 +34,13 @@ class Contact {
     }
 
     renderForm() {
-        c
+        Contact.contactForm.innerHTML += `
+        <form id="new-contact-form">
+            <input type="text" id="name">
+            <input type="text" id="number">
+            <input type="text" id="email">
+            <input type="submit" id="create">
+        </form>
+        `
     }
 }
