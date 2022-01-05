@@ -2,6 +2,7 @@ class Contact {
     //remember objects
     static all = []
     static contactContainer = document.getElementById('contacts-container')
+    static contactForm = document.getElementById('form-contact')
     constructor({id, name, number, email, category_id}){
         this.id = id
         this.name = name
@@ -30,5 +31,9 @@ class Contact {
     slapOnDom() {
         console.log(contactContainer)
         //Contact.contactsContainer.appendChild(contactHTML())
+    }
+
+    renderForm() {
+        c
     }
 }
