@@ -6,3 +6,6 @@ Contact.contactForm.addEventListener('submit', handleSubmit())
 contactService.getContacts()
 Contact.renderForm()
 
+function handleSubmit(){
+    
+}
