@@ -20,5 +20,7 @@ class ContactService {
          })
     }
 
-   
+   createContact(){
+       
+   }
 }
