@@ -21,6 +21,11 @@ class ContactService {
     }
 
    createContact(){
-       
+       const contact = {
+           name:
+           number:
+           email:
+           category_id: 1
+       }
    }
 }
