@@ -7,5 +7,5 @@ contactService.getContacts()
 Contact.renderForm()
 
 function handleSubmit(){
-    
+    contactService.createContact()
 }
