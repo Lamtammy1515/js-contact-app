@@ -22,9 +22,9 @@ class ContactService {
 
    createContact(){
        const contact = {
-           name:
-           number:
-           email:
+           name: document.getElementById('name').value,
+           number: document.getElementById('number').value,
+           email: document.getElementById('email').value,
            category_id: 1
        }
    }
