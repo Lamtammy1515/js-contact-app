@@ -27,5 +27,9 @@ class ContactService {
            email: document.getElementById('email').value,
            category_id: 1
        }
+
+       const configObj = {
+           
+       }
    }
 }
