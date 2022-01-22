@@ -35,6 +35,9 @@ class ContactService {
            },
            body: JSON.stringify(contact)
        }
-       fetch()
+       fetch(`${this.endpoint}/contacts`, configObj)
+       .then (resp => resp.json())
+       .then(contact => 
+        console.log(contact))
    }
 }
