@@ -29,7 +29,7 @@ class ContactService {
        }
 
        const configObj = {
-           
+           method: "POST"
        }
    }
 }
