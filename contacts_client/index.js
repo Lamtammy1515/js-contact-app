@@ -6,6 +6,7 @@ Contact.contactForm.addEventListener('submit', handleSubmit())
 contactService.getContacts()
 Contact.renderForm()
 
-function handleSubmit(){
+function handleSubmit(event){
+    event.preventDefault()
     contactService.createContact()
 }
