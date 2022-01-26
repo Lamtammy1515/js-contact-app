@@ -9,4 +9,5 @@ Contact.renderForm()
 function handleSubmit(event){
     event.preventDefault()
     contactService.createContact()
+    event.target.reset()
 }
