@@ -23,6 +23,9 @@ class Contact {
             <h3>${this.name}</h3>
             <p>${this.number} - ${this.email}</p>
         </div>
+        <button class = "delete-btn">delete</button>
+        <br>
+        <br>
         `
 
         return this.element
