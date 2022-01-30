@@ -38,6 +38,6 @@ class ContactService {
        fetch(`${this.endpoint}/contacts`, configObj)
        .then (resp => resp.json())
        .then(contact => 
-        console.log(contact))
+        new c = new Contact(contact)
    }
 }
