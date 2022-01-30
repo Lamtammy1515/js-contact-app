@@ -37,7 +37,11 @@ class ContactService {
        }
        fetch(`${this.endpoint}/contacts`, configObj)
        .then (resp => resp.json())
-       .then(contact => 
-        new c = new Contact(contact)
+       .then(contact => {
+        for (const contact of contacts) {
+             const c = new Contact(contact)
+             c.slapOnDom()
+        }})
+       
    }
 }
