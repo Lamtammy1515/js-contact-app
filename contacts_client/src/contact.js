@@ -13,7 +13,7 @@ class Contact {
         this.element = document.createElement('li')
         this.element.dataset.id = this.id
         this.element.id = `contact-${this.id}`
-
+        this.element.addEventListener('click', handleClick)
         Contact.all.push(this)
     }
 
@@ -46,4 +46,6 @@ class Contact {
         </form>
         `
     }
+
+
 }
